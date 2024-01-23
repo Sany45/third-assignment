@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockeys Shop</title>
+    <!-- Font Awesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/2b6584ce55.js"
+      crossorigin="anonymous"
+    ></script>
     <!--daisy ui-->   
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
@@ -17,9 +22,42 @@
 }
 </style>
 </head>
-<body>
+<body class="font-manrope">
     <header>
-
+ <!-- Header Section -->
+ <header class="lg:w-[70%] lg:mt-10 mt-3 w-[90%] m-auto">
+    <div class="header-sectionn">
+      <div class="navbar p-0 bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost pl-[0px] lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <a class="cursor-pointer font-extrabold lg:text-4xl text-2xl">Hockey<span class="text-orange-600">'</span>s</a>
+        </div>
+        <div class="navbar-center hidden xl:flex lg:flex">
+          <ul class="menu menu-horizontal mr-11">
+            <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="mr-6 text-2xl hidden lg:block" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-magnifying-glass" style="color: #d1d1d1;"></i></a>
+          <a class="cursor-pointer rounded-lg bg-orange-600 text-white lg:text-xl text-[18px] font-bold px-4 py-2 lg:px-6 lg:py-4">Get Ticket</a>
+        </div>
+      </div>
+    </div>
     </header>
     <main>
 
